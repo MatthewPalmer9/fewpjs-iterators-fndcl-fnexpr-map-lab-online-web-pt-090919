@@ -16,6 +16,6 @@ const titleCased = () => {
         let newString = string.split(" ");
         return newString.map(function(str){
             return str.replace(str[0], str[0].toUpperCase());
-        }).join();
+        }).join(" ");
     });
 }
